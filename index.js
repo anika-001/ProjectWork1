@@ -1,5 +1,6 @@
 
 const fs = require('fs');
+const yargs = require('yargs');//for commandline args
 const LoanDataArr = JSON.parse(fs.readFileSync('./mydata.json'));
 // Keep a counter for number of current active loans
 var ActiveLoans = [];
